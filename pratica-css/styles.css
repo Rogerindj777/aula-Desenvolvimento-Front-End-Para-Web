@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
-    background-color: azure;
-    color: black;
+    background-color: #f4f4f9;
+    color: #222;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     margin-bottom: 12px;
-    color: brown;
+    color: #2c3e50;
 }
 
 p {
@@ -27,7 +27,7 @@ p {
 }
 
 a {
-    color: blue;
+    color: #2a6bf2;
     text-decoration: none;
 }
 
@@ -44,4 +44,13 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
 }
